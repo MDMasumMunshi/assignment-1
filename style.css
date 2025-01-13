@@ -14,13 +14,13 @@ h1,h2,h3,h4,h5,h6{
      display: flex;
      justify-content: space-around;
      align-items: center;
-     gap: 920px;
+     gap: 350px;
      width: 1900px;
      height: 100px;
 }
 
 .head-title {
-     font-size: 32;
+     font-size: 32px;
      font-weight: bold;
 }
 
@@ -30,6 +30,7 @@ h1,h2,h3,h4,h5,h6{
      width: 116px;
      height: 52px;
      padding: 10px 10px;
+     border-radius: 8px;
 }
 
 /* nav bar */
@@ -39,10 +40,10 @@ h1,h2,h3,h4,h5,h6{
      display: flex;
      justify-content: space-around;
      align-items: center;
-     width: 1600px;
-     height: 580px;
-     margin-right: 160px;
-     margin-left: 160px;
+     width: 1280px;
+     height: 560px;
+     margin-right: 300px;
+     margin-left: 300px;
      border-radius: 10px;
 }
 
@@ -77,8 +78,8 @@ h1,h2,h3,h4,h5,h6{
 
 /* about header section */
 main {
-     margin-left: 160px;
-     margin-right: 160px;
+     margin-left: 300px;
+     margin-right: 300px;
      margin-top: 80px;
 }
 
@@ -90,11 +91,11 @@ main {
 
 .vision1 {
      background-color: #FFFFFF;
-     padding: 24px;
+     padding: 24px; border-radius: 10px;
 }
 
 .vision-head {
-     font-size: 40;
+     font-size: 40px;
      font-weight: bold;
      margin-bottom: 32px;
      font-family: "Fira Sans", serif;
@@ -133,23 +134,23 @@ main {
 .pillar-of {
      display: flex;
      justify-content: space-around;
-     gap: 30px;
+     gap: 24px;
      overflow: hidden;
 }
 
 .piller1 {
      background-color: rgba(84, 144, 245, 0.2);
-     padding: 32px;
+     padding: 32px; border-radius: 10px;
 }
 
 .piller2 {
      background-color: #C6E4D6;
-     padding: 32px;
+     padding: 32px; border-radius: 10px;
 }
 
 .piller3 {
      background-color: #F7EBCF;
-     padding: 32px;
+     padding: 32px; border-radius: 10px;
 }
 
 .pillar-image {
@@ -175,6 +176,7 @@ main {
      width: 122px;
      height: 41px;
      border: none;
+     border-radius: 5px;
 }
 
 .pile2 {
@@ -183,6 +185,7 @@ main {
      width: 122px;
      height: 42px;
      border: none;
+     border-radius: 5px;
 }
 
 .pile3 {
@@ -191,15 +194,14 @@ main {
      width: 122px;
      height: 41px;
      border: none;
+     border-radius: 5px;
 }
 
 /* card box 2 */
 .adviser {
-     background-image: url(./quote-bg.png);
-     background-repeat: no-repeat;
-     background-position: top left;
+
      background-color: #FFFFFF;
-     width: 1600px;
+     width: 1245px;
      height: 256px;
      padding: 48px 24px;
      margin-top: 32px;
@@ -217,8 +219,8 @@ main {
 }
 
 /*  */
-.recent-head {
-     margin-top: 80px;
+.recent-head { margin-top:80px ;
+
      font-size: 50px;
      font-weight: bold;
      color: rgba(14, 14, 14, 1);
@@ -234,29 +236,29 @@ main {
 .recent {
      display: flex;
      justify-content: space-around;
-     align-items: center;
      background-color: #FFFFFF;
      padding: 48px;
+     gap: 32px; 
      margin-top: 32px;
      border-radius: 10px;
 }
 
 .recent-div {
-     width: 900px;
-     height: 350px;
+     width: 744px;
+     height: 290px;
 }
 
-.earth {
+.earth { width: 408px; height: 306px;
      border-radius: 15px;
 }
 
 .recent-title {
      font-size: 40px;
      font-weight: bold;
+margin-bottom: 12px;
 }
 
-.recent-img {
-     margin-bottom: 48px;
+.recent-img {margin-bottom: 12px;
 }
 
 .recent-about {
@@ -265,8 +267,7 @@ main {
 }
 
 .recent-btn {
-     width: 155px;
-     height: 50px;
+     
      background-color: #006A50;
      color: #FFFFFF;
      font-size: 18px;
@@ -274,14 +275,15 @@ main {
      border: none;
      border-radius: 5px;
      padding: 13px 26px;
-     margin-top: 35px;
+     margin-top: 32px;
 }
 
 .recent-2 {
      display: flex;
      justify-content: space-around;
-     align-items: center;
+     
      background-color: #FFFFFF;
+     gap: 32px;
      padding: 48px;
      margin-top: 32px;
      border-radius: 10px;
@@ -307,7 +309,7 @@ main {
      display: flex;
      justify-content: space-around;
      align-items: center;
-     gap: 24px;
+
      margin-top: 32px;
 }
 
@@ -319,7 +321,7 @@ main {
      width: 240px;
      height: 128px;
      padding: 17px;
-     margin-top: 32px;
+     
      border: none;
      border-radius: 10px;
      text-align: center;
@@ -330,17 +332,42 @@ main {
      color: rgba(14, 14, 14, 0.8);
      font-size: 40px;
      font-weight: 900;
-     width: 240px;
+     width: 252px;
      height: 128px;
      padding: 17px;
-     margin-top: 32px;
+
      border: none;
      border-radius: 10px;
+     
 }
+.don3{
+     background-color: #FFFFFF;
+     color: rgba(14, 14, 14, 0.8);
+     font-size: 40px;
+     font-weight: 900;
+     width: 243px;
+     height: 128px;
+     padding: 17px;
+     
+     border: none;
+     border-radius: 10px;
+     text-align: center;}
+     .don4{
+          background-color: #FFFFFF;
+          color: rgba(14, 14, 14, 0.8);
+          font-size: 40px;
+          font-weight: 900;
+          width: 264px;
+          height: 128px;
+          padding: 17px;
+     
+          border: none;
+          border-radius: 10px;
+          text-align: center;}
 
 input.close {
-     width: 1550px;
-     height: 80px;
+     width: 1032px;
+     height: 64px;
      background-color: #FFFFFF;
      margin-top: 32px;
      border: none;
@@ -364,11 +391,10 @@ input.close {
 /* donate option  */
 .news-lter {
      background-color: #C6E4D6;
-     width: 1100px;
-     height: 300px;
+
      border: none;
-     border-radius: 5px;
-     padding: 80px 256px;
+     border-radius: 10px;
+     padding: 80px 265px;
      margin-top: 80px;
      margin-bottom: 80px;
      text-align: center;
@@ -377,19 +403,19 @@ input.close {
 .close2 {
      background-color: #006A50;
      color: #FFFFFF;
-     width: 160px;
-     height: 60px;
+     height: 56px;
+     padding: 17px 34px;
      border: none;
-     border-radius: 3px;
+     border-radius: 5px;
      margin-top: 24px;
 }
 
 .leter-input1 {
      width: 600px;
-     height: 60px;
+     height: 55px;
      border: none;
-     text-align: center;
-     margin-top: 24px;
+     text-align:left;
+     margin-top: 24px; border-radius: 5px;
 }
 
 .leter-head {
